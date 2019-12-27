@@ -1,0 +1,98 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed|Ubuntu:300,400,700&display=swap&subset=cyrillic');
+
+.header {
+	width: 100%;
+	height: 100px;
+	background: #0000FF;
+}
+
+.header-container h1 {
+	font-family: Ubuntu Condensed,Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 38px;
+	line-height: 100px;
+	margin-left: 44px;
+	color: #FFFFFF;
+
+}
+
+.image-container {
+	width: 100%;
+	height: 400px;
+	background-image: url(../img/unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.links {
+	width: 100%;
+	height: 80px;
+	background: #0000FF;
+}
+
+.links h2 {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 80px;
+	text-transform: uppercase;
+	margin-left: 44px;
+	color: #FFFFFF;
+}
+
+.links a {
+	font-family: Ubuntu Condensed,Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.text {
+	width: 90%;
+	margin-left: 44px;
+	margin-bottom: 40px;
+}
+
+.text h3 {
+	font-family: Ubuntu Condensed,Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	margin-top: 36px;
+	margin-bottom: 28px; 
+	color: #000000;	
+}
+
+.text p {
+	font-family: Ubuntu,Helvetica;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 18px;
+	line-height: 24px;
+	margin-right: 44px;
+	margin-bottom: 26px;
+	color: #000000;	
+}
+
+.footer {
+	width: 100%;
+	height: 100px;
+	background-color: #0000FF;
+}
+
+.footer-container {
+	width: 112px;
+	height: 26px;
+	margin-top: 36px;
+	margin-left: 44px;
+	margin-bottom: 38px;
+	position: absolute;
+	background-image: url(../img/logo.png);
+	
+}
