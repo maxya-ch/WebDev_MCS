@@ -1,5 +1,5 @@
 @import url(reset.css);
-
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed|Ubuntu:300,400,700&display=swap&subset=cyrillic');
 
 .header {
 	width: 100%;
@@ -8,7 +8,7 @@
 }
 
 .header-container h1 {
-	font-family: Helvetica;
+	font-family: Ubuntu Condensed,Helvetica;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 38px;
@@ -33,13 +33,17 @@
 }
 
 .links h2 {
-	font-family: Helvetica;
+	line-height: 80px;
+	margin-left: 44px;
+}
+
+.links a {
+	font-family: Ubuntu Condensed,Helvetica;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 20px;
-	line-height: 80px;
 	text-transform: uppercase;
-	margin-left: 44px;
+	text-decoration: none;
 	color: #FFFFFF;
 }
 
@@ -49,8 +53,12 @@
 	margin-bottom: 40px;
 }
 
+.text a {
+	text-decoration: none;
+}
+
 .text h3 {
-	font-family: Helvetica;
+	font-family: Ubuntu Condensed,Helvetica;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 36px;
@@ -60,11 +68,11 @@
 }
 
 .text p {
-	font-family: Helvetica;
+	font-family: Ubuntu,Helvetica;
 	font-style: normal;
-	font-weight: normal;
-	font-size: 20px;
-	line-height: 26px;
+	font-weight: 100;
+	font-size: 18px;
+	line-height: 24px;
 	margin-right: 44px;
 	margin-bottom: 26px;
 	color: #000000;	
