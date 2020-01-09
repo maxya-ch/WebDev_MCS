@@ -1,0 +1,8 @@
+@import url(reset.css);
+
+div {
+	box-sizing: border-box;
+	width: 300px;
+	padding: 20px;
+	background-color: yellow; 
+}

@@ -1,0 +1,9 @@
+@import url(reset.css);
+
+div {
+	background-color: navy;
+	width: 600px;
+	height: 600px;
+	border: 5px solid red;
+	box-sizing: border-box;
+}
