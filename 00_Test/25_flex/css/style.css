@@ -1,0 +1,11 @@
+.bigBlueBlock {
+  height: 200px;
+  background-color: blue;
+  display: flex;
+}
+
+.flex {
+	color: white;
+  	font-size: 50px;
+	margin: auto;
+}
