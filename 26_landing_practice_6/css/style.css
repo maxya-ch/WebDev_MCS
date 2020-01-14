@@ -1,0 +1,144 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+body {
+	display: flex;	/* А так можно вообще с body?! */
+}
+
+.page {
+	margin: auto;
+}
+
+.header {
+	position: fixed;
+	width: 962px;
+	z-index: 1;
+}
+
+.header-container {
+	height: 100px;
+	background-color: rgba(255, 255, 255, 0.8);
+	}
+
+.logo {
+	width: 180px;
+	height: 36px;
+	position: relative;
+	left: 60px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	display: inline-block;
+} 
+
+.menu {
+	display: inline-block;
+	position: absolute;
+	right: 20px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.story,.photo,.buy {
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 100px;
+	padding-right: 12px;
+	color: #000000;
+}
+
+.main-image {
+	width: 100%;
+	height: 548px;
+	background-image: url(../img/m-img.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.discription {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+
+	position: relative;
+	margin-left: 60px;
+	margin-top: 56px;
+	margin-bottom: 84px;
+
+}
+
+.icons {
+	margin-left: 60px;
+
+}
+
+.i1,.i2,.i3 {
+	display: inline-block;
+	padding-right: 22px;
+	padding-top: 26px;
+	padding-bottom: 28px;
+}
+
+.man-w {
+	margin-left: 60px;
+	margin-top: 80px;
+	margin-bottom: 134px;
+	position: relative;
+}
+
+.man-w-img {
+	width: 378px;
+	height: 216px;
+	position: relative;
+	display: inline-block;
+}
+
+.mam-w-text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+
+	position: absolute;
+	width: 414px;
+	height: 120px;
+	margin-top: 60px;
+	margin-left: 68px;
+	display: inline-block;
+}
+
+.footer {
+	position: relative;
+}
+
+.footer-container {
+	height: 80px;
+	background-color: #1C1C1C;
+
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 80px;
+	color: #FFFFFF;
+}
+
+.copyright {
+	display: inline-block;
+	position: absolute;
+	left: 60px;
+}
+
+.back-button a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.back-button {
+	display: inline-block;
+	position: absolute;
+	right: 40px;
+}
