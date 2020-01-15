@@ -51,6 +51,7 @@
 
 	z-index: -1;
 	margin-left: 60px;
+	margin-right: 20px;
 	margin-top: 56px;
 	margin-bottom: 64px;
 	position: relative;
@@ -98,6 +99,7 @@
 	line-height: 20px;
 	color: #000000;
 	margin-top: 40px;
+	margin-right: 25px;
 }
 
 .footer {
