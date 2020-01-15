@@ -1,11 +1,30 @@
-.bigBlueBlock {
-  height: 200px;
-  background-color: blue;
-  display: flex;
+@import url(reset.css);
+
+.flex-container {
+	height: 300px;
+	background-color: blue;
+	display: flex;
+	flex-direction: row;
+	/* flex-wrap: wrap; */
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
 }
 
-.flex {
-	color: white;
-  	font-size: 50px;
-	margin: auto;
+.flex-item {
+	width: 200px;
+	height: 100px;
+	background-color: orange;
+}
+
+.flex-item.one {
+	order: 1;
+	flex-grow: 0;
+	flex-shrink: 3;
+	align-self: flex-end;
+}
+
+.flex-item.three {
+	order: 2;
+	flex-basis: 500px;
 }
