@@ -1,0 +1,89 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:600|PT+Sans+Narrow:400,700|Vollkorn+SC:700&display=swap');
+
+.header {
+	height: 80px;
+	background-color: #95D100;
+	display: flex;
+}
+
+.header-container {
+	margin: auto;
+}
+
+h1 {
+	font-family: 'Vollkorn SC', serif;
+	font-size: 26px;
+	color: #3c6206;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: 'EB Garamond', serif;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 18px;
+	text-transform: uppercase;
+	padding: 8% 10% 0 10%;
+}
+
+h3 {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 5% 10% 0;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.columns {
+	width: 80vw;
+	margin: auto;
+	padding: 5% 0;
+	min-height: 300px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.column {
+	border: 1px solid lightgray;
+	border-radius: 8px;
+	width: calc((100% - 80px)/3);
+}
+
+.image {
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%; 
+	border-radius: 8px 8px 0 0;
+}
+
+.image.left {
+	background-image: url(../img/left.png);
+}
+
+.image.center {
+	background-image: url(../img/center.png);
+}
+
+.image.right {
+	background-image: url(../img/right.png);
+}
+
+.footer {
+	height: 60px;
+	display: flex;
+	padding: 0 40px;
+	background-color: #95D100;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer h3  {
+	font-size: 18px;
+	color: #3c6206;
+}

@@ -1,0 +1,23 @@
+@import url(reset.css);
+
+.columns {
+	width: 80vw;
+	margin: auto;
+	min-height: 500px;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	background-color: lightgray;
+}
+
+.column {
+	width: calc((100% - 40px)/3);
+	background-color: lightblue;
+}
+
+.image {
+	background-image: url(../img/e-ch.png);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
