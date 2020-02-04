@@ -11,55 +11,100 @@ body {
 	color: white;
 }
 
-form {
-	width: 80vw;
-	margin: auto;
-}
-
 h1 {
 	font-weight: bold;
 	font-size: 44px;
 	line-height: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 45px;
 }
 
 h2 {
 	font-weight: normal;
-	font-size: 24px;
-	line-height: 27px;
-	margin-bottom: 24px;
+	font-size: 22px;
+	line-height: 26px;
+	margin-bottom: 20px;
+}
+
+img {
+	width: 57px;
+	height: 28px;
+	margin-top: 24px;
+}
+
+a:hover img {
+	width: 55px;
+	height: 26px;
+	margin-top: 26px;
+	transition: 0.2s cubic-bezier(0.25, 0.45, 0.45, 0.9);
+}
+
+form {
+	margin: 40px;
+}
+
+label {
+	margin-top: 15px;
+	display: inline-block;
+}
+
+input {
+	font-size: 14px;
+	margin-top: 5px;
+	display: block;
+	border: none;
+}
+
+input:focus, textarea:focus {
+	outline: none;
 }
 
 .content {
 	height: 100%;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: center;	
 }
 
-input {
-	display: block;
-	border: none;
-	margin-bottom: 10px;
+.text {
+	width: 500px;
+	margin: 40px;
 }
 
 .forms {
+	width: 400px;
 	color: black;
-}
-
-.column, .forms {
-	margin: 40px 40px 10px;
-}
-
-.column.one {
-	width: 600px;
-}
-
-.column.two {
-	width: 500px;
-	height: 690px;
+	margin: 0px 40px;
 	border-radius: 18px;
 	background: #FFFFFF;
+}
+
+.message {
+	margin-top: 54px;
+}
+
+textarea {
+	width: 100%;
+	height: 140px;
+	margin: 24px 0px 14px;
+	background: #F3F3F3;
+	border-color: #F3F3F3;
+	border-radius: 14px;
+	resize: vertical;
+}
+
+input[type="submit"] {
+	width: 100%;
+	height: 40px;
+	color: white;
+	cursor: pointer;
+	border-radius: 10px;
+	background-color: #005BF0;
+
+}
+
+input[type="submit"]:hover {
+	background-color: lightgrey;
+	color: black;
 }
 
 
@@ -75,19 +120,20 @@ input {
 		font-size: 18px;
 		line-height: 20px;
 	}
-	
+
+	.text {
+		width: 72vw;
+	}
+
+	.forms {
+		width: 82vw;
+	}
+
 	.content {
-		display: block;
+		flex-direction: column;
+		justify-content: flex-start;
 	}
 
-	.column.one {
-		width: 80vw;
-	}
-
-	.column.two {
-		width: 80vw;
-		height: 690px;
-	}
 }
 
 @media screen and (max-width: 320px) {

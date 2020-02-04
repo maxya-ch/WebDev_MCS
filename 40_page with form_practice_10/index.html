@@ -1,30 +1,40 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<title>Boilerplate</title>
+	<title>Отзыв</title>
 	<meta name='viewport' content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
-	<meta description="boilerplate code">
-	<meta keywords="boilerplate, test">
+	<meta description="page with the feedback form for my work">
+	<meta keywords="boilerplate, practice">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<main class="content">
-		<div class="column one">
-			<h1>Напишите, что думаете  о моей работе </h1>
-			<h2>Если это плохой отзыв, как вам кажется,  или вы думаете, что он ничео не значит —  тем более напишите.  </h2>
-			<h2>Но вообще, если сказать нечего  <br>или вы тут случайно, то можно вернуться назад.</h2>
+	<div class="content">
+		<div class="text">
+			<h1>Напишите, что думаете о том, что думаете</h1>
+			<h2>Если это плохой отзыв, как вам кажется, или вы думаете, что он ничего не значит — тем более напишите.</h2>
+			<h2>Но вообще, если сказать нечего или вы тут случайно, то можно вернуться назад.</h2>
+			<a href="../index.html">
+				<img src="img/arrow.svg">
+			</a>
 		</div>
-		<div class="column two">
-			<form>
-				<div class="forms">
-					<label for="name">Как вас зовут</label>
+		<div class="forms">
+			<form action="https://formspree.io/mbjoovvd" method="POST" target="_blank">
+				<fieldset class="personal">
+					<label for="name">Как вас зовут:</label>
 					<input type="text" name="name" placeholder="Вася">
-					<label for="city">Ваш город</label>
+					<label for="city">Ваш город:</label>
 					<input type="text" name="city" placeholder="Санкт-Петербург">
-				</div>
+					<label for="email">Ваш email:</label>
+					<input type="text" name="email" placeholder="exampl@mail.send">
+				</fieldset>
+				<fieldset class="message">
+					<label for="message">Ваш отзыв:</label>
+					<textarea name="message"></textarea>
+					<input type="submit" value="Готово">
+				</fieldset>
 			</form>
 		</div>
-	</main>
+	</div>
 </body>
 </html>
