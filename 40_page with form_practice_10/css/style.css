@@ -1,0 +1,105 @@
+@import url(reset.css);
+
+html,body {
+	height: 100%;
+}
+
+body {
+	background-color: #005BF0;
+	font-family: PT Mono;
+	font-style: normal;
+	color: white;
+}
+
+form {
+	width: 80vw;
+	margin: auto;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 44px;
+	line-height: 50px;
+	margin-bottom: 50px;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 27px;
+	margin-bottom: 24px;
+}
+
+.content {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+input {
+	display: block;
+	border: none;
+	margin-bottom: 10px;
+}
+
+.forms {
+	color: black;
+}
+
+.column, .forms {
+	margin: 40px 40px 10px;
+}
+
+.column.one {
+	width: 600px;
+}
+
+.column.two {
+	width: 500px;
+	height: 690px;
+	border-radius: 18px;
+	background: #FFFFFF;
+}
+
+
+@media screen and (max-width: 768px) {
+
+	h1 {
+		font-size: 32px;
+		line-height: 36px;
+		margin-bottom: 40px;
+	}
+
+	h2 {
+		font-size: 18px;
+		line-height: 20px;
+	}
+	
+	.content {
+		display: block;
+	}
+
+	.column.one {
+		width: 80vw;
+	}
+
+	.column.two {
+		width: 80vw;
+		height: 690px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+
+	h1 {
+		font-size: 24px;
+		line-height: 30px;
+		margin-bottom: 20px;
+	}
+
+	h2 {
+		font-size: 14px;
+		line-height: 16px;
+	}
+}
