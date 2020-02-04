@@ -6,20 +6,12 @@ html {
   min-height: 100%;
 }
 
-.header {
-	height: 60px;
-	background-color: #95D100;
-	display: flex;
-}
-
-.header-container {
-	margin: auto;
-}
-
 h1 {
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-weight: normal;
 	font-size: 26px;
+	line-height: 60px;
+	text-align: center;
 	color: #3c6206;
 }
 
@@ -44,19 +36,19 @@ a {
 	text-decoration: none;
 }
 
-.columns-container {
-	width: 80vw;
-	margin: auto;
-	padding: 15% 0 0;
+.header {
+	height: 60px;
+	background-color: #95D100;
+	margin-bottom: 10vw;
 }
 
 .column {
 	display: flex;
-  	align-items: center;
-  	justify-content: center;
 	border: 1px solid lightgray;
 	border-radius: 8px;
 	margin-bottom: 10px;
+	align-items: center;
+	justify-content: center;
 }
 
 .footer {
@@ -82,16 +74,7 @@ a {
 
 @media screen and (min-width: 600px) {
 
-	.columns-container {
-		padding: 8% 0;
-	}
-
-	.container {
-		display: flex;
-		justify-content: space-between;
-	}
-
 	.column {
+		display: inline-block;
 		width: calc((100% - 15px)/2);
-	}
 ]
