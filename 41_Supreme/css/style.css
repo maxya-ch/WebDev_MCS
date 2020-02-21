@@ -1,0 +1,85 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
+
+html,body {
+	height: 100%;
+}
+
+body {
+	background: black;
+	font-family: 'Space Mono', monospace;
+	color: white;
+}
+
+.page {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.header {
+	margin-bottom: 62px;
+}
+
+.header img {
+	width: 287px;
+	height: 82px;
+	margin-bottom: 28px;
+}
+
+.date-time {
+	text-align: center;
+}
+
+.menu {
+	font-size: 20px;
+	line-height: 32px;
+	margin-bottom: 58px;
+}
+
+.social_n img {
+	width: 30px;
+	height: 30px;
+	margin: 15px;
+}
+
+ a {
+	text-decoration: none;
+}	
+
+.menu a {
+	color: white;
+	text-decoration: none;
+	padding: 0px 5px;
+}
+
+.menu a:hover {
+	background-color: red;
+}
+
+@media screen and (max-width: 870px) {
+
+	.page {
+		justify-content: flex-start;
+		margin-top: 30px; 
+	}
+
+	.menu {
+		font-size: 16px;
+		line-height: 24px;
+		margin-bottom: 38px;
+	}
+
+}
+
+@media screen and (max-width: 320px) {
+
+	.menu {
+		font-size: 14px;
+		line-height: 22px;
+		margin-bottom: 36px;
+	}
+
+}
