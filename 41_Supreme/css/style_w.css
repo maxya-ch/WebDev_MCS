@@ -138,6 +138,8 @@ h2 {
 		width: 100%;
 		font-size: 16px;
 		line-height: 24px;
+		position: relative;
+		bottom: 0px;
 	}
 
 	.menu a {
