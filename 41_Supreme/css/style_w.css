@@ -154,7 +154,7 @@ h2 {
 	}
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 320px) {
 
 	h1 {
 	font-size: 20px;
@@ -165,13 +165,6 @@ h2 {
 	font-size: 16px;
 	line-height: 20px;
 	margin-bottom: 8px;
-	}
-
-	.content {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		margin-bottom: 40px;
 	}
 
 }
