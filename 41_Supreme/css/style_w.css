@@ -106,7 +106,7 @@ h2 {
 	}
 
 	.content {
-		width: 90vw;
+		/* width: 90vw; */
 		flex-direction: column;
 	}
 
