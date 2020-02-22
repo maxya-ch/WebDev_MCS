@@ -36,7 +36,6 @@ body {
 .content {
 	display: flex;
 	align-items: center;
-	justify-content: center;
 	margin-bottom: 80px;
 }
 
@@ -83,7 +82,6 @@ h2 {
 }
 
 .menu {
-	display: flex;
 	font-size: 20px;
 	line-height: 32px;
 }
