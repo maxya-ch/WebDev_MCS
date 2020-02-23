@@ -98,6 +98,10 @@ h2 {
 	color: white;
 }
 
+li {
+	display: inline-block;
+}
+
 @media screen and (max-width: 870px) {
 	
 	.page {
@@ -134,11 +138,9 @@ h2 {
 
 	.footer {
 		background-color: black;
-		width: 100%;
+		max-height: 120px;
 		font-size: 16px;
 		line-height: 24px;
-		position: relative;
-		bottom: 0px;
 	}
 
 	.footer a {
