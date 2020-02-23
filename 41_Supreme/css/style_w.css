@@ -98,10 +98,6 @@ h2 {
 	color: white;
 }
 
-nav {
-	display: inline-block;
-}
-
 @media screen and (max-width: 870px) {
 	
 	.page {
