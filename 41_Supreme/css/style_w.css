@@ -81,21 +81,25 @@ h2 {
 	margin: 0px 15px;
 }
 
-.menu {
+.footer {
 	display: flex;
 	font-size: 20px;
 	line-height: 32px;
 }
 
-.menu a {
+.footer a {
 	color: black;
 	text-decoration: none;
 	padding: 0px 5px;
 }
 
-.menu a:hover {
+.footer a:hover {
 	background-color: red;
 	color: white;
+}
+
+nav {
+	display: inline-block;
 }
 
 @media screen and (max-width: 870px) {
@@ -132,7 +136,7 @@ h2 {
 		margin: 0px 8px 8px;  
 	}
 
-	.menu {
+	.footer {
 		background-color: black;
 		width: 100%;
 		font-size: 16px;
@@ -141,11 +145,11 @@ h2 {
 		bottom: 0px;
 	}
 
-	.menu a {
+	.footer a {
 		color: white;
 	}
 
-	.menu a:hover {
+	.footer a:hover {
 		background-color: red;
 		color: white;
 	}
