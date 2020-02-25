@@ -1,7 +1,7 @@
 @import url(reset.css);
 @import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
 
-
+-webkit-overflow-scrolling: touch;
 
 html,body {
 	height: 100%;
@@ -105,8 +105,6 @@ li {
 }
 
 @media screen and (max-width: 870px) {
-
-	-webkit-overflow-scrolling: touch;
 	
 	.page {
 		justify-content: flex-start;
