@@ -19,6 +19,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	margin-top: 10vh;
 }
 
 .header {
@@ -105,7 +106,7 @@ li {
 }
 
 @media screen and (max-width: 870px) {
-	
+
 	.page {
 		justify-content: flex-start;
 		margin-top: 30px; 
