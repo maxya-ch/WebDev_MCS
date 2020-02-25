@@ -171,4 +171,12 @@ li {
 	margin-bottom: 8px;
 	}
 
+	.footer {
+		background-color: black;
+		font-size: 16px;
+		line-height: 24px;
+		position: absolute;
+		bottom: -80vh;
+	}
+
 }
