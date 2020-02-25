@@ -138,9 +138,10 @@ li {
 
 	.footer {
 		background-color: black;
-		max-height: 120px;
 		font-size: 16px;
 		line-height: 24px;
+		position: absolute;
+		bottom: -80vh;
 	}
 
 	.footer a {
