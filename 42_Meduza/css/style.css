@@ -1,5 +1,237 @@
 @import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Source+Sans+Pro&display=swap');
+
+body,html {
+	height: 100%;
+}
 
 body {
-	background-image: red;
+	background: #000000;
+}
+
+.page {
+	display: flex;
+	min-width: 1024px;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.header {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	max-width: 1080px;
+	width: calc(100% - 4vw);
+	color: white;
+	font-family: 'Source Sans Pro';
+	font-size: 15px;
+	line-height: 18px;
+}
+
+.logo {
+	position: absolute;
+	display: flex;
+	left: 0;
+	margin: 17px 17px 17px 20px;
+}
+
+li {
+	display: inline-block;
+	margin: 20px 15px;
+}
+
+li:hover {
+	color: hsla(0,0%,100%,.5);
+	transition: color .2s ease-out;
+}
+
+.search {
+	height: 50px;
+	width: calc(100% - 4vw);
+	max-width: 1080px;
+	border-radius: 10px;
+	background: white;
+	position: relative;
+	margin: 20px 0px;
+}
+
+.search h2 {
+	color: #9CA1A9;
+	font-family: 'Source Sans Pro';
+	font-size: 15px;
+	line-height: 50px;
+}
+
+.exchange {
+	color: #9CA1A9;
+	font-family: 'Source Sans Pro';
+	font-size: 16px;
+	line-height: 50px;
+	margin: 0px 20px;  
+}
+
+.exchange-one {
+	display: inline-block;
+	padding-right: 5px;
+}
+
+.exchange-two {
+	display: inline-block;
+	padding-right: 5px;
+}
+
+.exchange-one:before {
+    content: "$";
+   }
+
+.exchange-two:before {
+    content: "€"; 
+   }   
+
+.exchange span {
+	color: #000000;
+	font-family: 'Source Sans Pro';
+	font-size: 16px;
+	line-height: 50px; 
+}
+
+.search-holder {
+	position: absolute;
+	right: 0px;
+	margin: 0px 20px;
+}
+
+.search-placeholder {
+	display: inline-block;
+	right: 0px;
+	margin: 0px 10px 0px;
+}
+
+.button {
+	display: inline-block;
+	right: 0px;
+	vertical-align: middle;
+}
+
+.content {
+	max-width: 1080px;
+	width: calc(100% - 4vw);
+	display: block;
+	border-radius: 10px 10px 0px 0px;
+	background: #f2f2f2;
+	padding-bottom: 80px;
+	margin: 0px 20px 10px;
+}
+
+h1 {
+	font-size: 30px;
+	line-height: 34px;
+	font-family: 'Merriweather';
+	text-align: center;
+	margin: 44px 66px 48px;
+}
+
+h2 {
+	font-size: 18px;
+	line-height: 25px;
+	font-family: 'Merriweather';
+}
+
+h3 {
+	font-size: 14px;
+	line-height: 18px;
+	font-family: 'Merriweather';
+}
+
+h4 {
+	font-size: 12px;
+	line-height: 15px;
+	font-family: 'Source Sans Pro';
+	color: #9CA1A9;
+	margin: 20px 0px 10px;
+	left: 0px;
+	bottom: 0px;
+}
+
+.main-news h4 {
+	text-align: center;
+}
+
+.main-news {
+	height: 100%;
+	background: #FFFFFF;
+	border: 3px solid #A37846;
+	box-sizing: border-box;
+	border-radius: 10px;
+	margin: 60px 60px 0px;
+}
+
+.second-news {
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	background: #FFFFFF;
+	border: 1px solid #9CA1A9;
+	box-sizing: border-box;
+	border-radius: 10px;
+	margin: 20px 60px;
+}
+
+.column {
+	margin: 30px 15px 0px 30px;
+}
+
+.column.two {
+	width: calc(100% - 30vw);
+	max-width: 250px;
+	margin: 30px 15px 0px 30px;
+}
+
+.column.three {
+	width: calc(100% - 30vw);
+	max-width: 250px;
+	margin: 30px 30px 0px 20px;
+}
+
+.box {
+	position: relative;
+	margin-bottom: 30px; 
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	color: hsla(0,0%,100%,.9);
+	font-family: 'Source Sans Pro';
+	font-size: 14px;
+	line-height: 18px;
+	margin: 0px 20px;
+}
+
+.footer-column {
+	margin: 40px 25px;
+}
+
+.footer li {
+	display: block;
+	margin: 5px 0px;
+}
+
+.footer h3 {
+	color: hsla(0,0%,100%,.5);
+	font-family: 'Source Sans Pro';
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 1.4px;
+	margin: 28px 0px 12px;
+}
+
+@media screen and (max-width: 1080px) {
+
+	.footer h3 {
+		font-size: 12px;
+		line-height: 14px;
+	}
+
 }
